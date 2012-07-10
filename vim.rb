@@ -30,7 +30,7 @@ class Vim < Formula
                           "--enable-rubyinterp",
                           "--enable-cscope",
                           "--with-ruby-command=/usr/bin/ruby",
-                          "--with-features=huge"
+                          "--with-features=normal"
     system "make"
 
     # Even though we specified HOMEBREW_PREFIX for configure,
